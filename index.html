@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <title>personal project</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: pink;
+        font-family: "Muli";
+        /* margin: 100px; */
+      }
+
+      /***FIRST COMPONENT**/
+      .top-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        opacity: 0.4;
+
+        /* font-size: 16px; */
+        /* line-height: 24px; */
+        /* font-style: normal; */
+        text-align: left;
+        color: #ffffff;
+      }
+      .top-nav i {
+        margin-right: 10px;
+      }
+      .top-nav span:first-of-type {
+        margin-right: 100px;
+      }
+
+      /******II component***/
+      .bottom-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      /******THIRD COMPONENT****/
+      .third-component-container {
+        display: flex;
+        align-items: center;
+      }
+
+      .third-component-container h1 {
+        font-family: "GlacialIndifference-Bold";
+        font-size: 80px;
+        font-weight: normal;
+        line-height: 87px;
+        font-style: normal;
+        text-align: left;
+        color: #ffffff;
+      }
+
+      .third-component-container h3 {
+        font-family: "Muli-Regular";
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 28px;
+        font-style: normal;
+        text-align: left;
+        color: #ffffff;
+      }
+
+      .third-component-container button {
+        background: #ee3364;
+        padding: 18px 25px 25px 25px;
+        border: none;
+        font-family: "Muli-Bold";
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        text-align: left;
+        color: #ffffff;
+      }
+
+      .third-component-container img {
+        width: 736px;
+        height: 727px;
+      }
+
+      header {
+        background: url("./images/background.png");
+        background-size: cover;
+        padding: 100px;
+      }
+
+      /**************IV*********/
+      .component-4 {
+        background-color: #edf7ff;
+      }
+      .features {
+        display: flex;
+        align-items: center;
+      }
+      .flex {
+        display: flex;
+        align-items: center;
+      }
+
+      /*****************V*****/
+      .flex-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .component-5 {
+        color: white;
+        background: #ff434b;
+      }
+      .component-5 p:first-child {
+        font-family: "Muli";
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 23px;
+        font-style: normal;
+        text-align: left;
+        color: #ffffff;
+      }
+
+      .component-5 p:last-child {
+        font-family: "GlacialIndifference-Bold";
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 34.9999885559082px;
+        font-style: normal;
+        text-align: left;
+        color: #ffffff;
+      }
+
+      .component-5 h2 {
+        font-family: "GlacialIndifference-Bold";
+        font-size: 45px;
+        font-weight: normal;
+        line-height: 47px;
+        font-style: normal;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      /*****VI***/
+      .yellow-rec1,
+      .yellow-rec2 {
+        width: 426px;
+        height: 547px;
+        border-color: #000000;
+        border-width: 1px;
+        border-style: dashed;
+        background: #ffa723;
+      }
+
+      .yellow-rec1 {
+        margin-right: 600px;
+      }
+
+      .yellow-rec2 {
+        filter: drop-shadow(
+          8.5px 14.722432136535645px 25px rgba(0, 0, 0, 0.29)
+        );
+        position: absolute;
+        left: 10%;
+        top: 5%;
+      }
+
+      .component-7 {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- FIRST COMPONENT -->
+      <section>
+        <nav class="top-nav">
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <span>hello@mexo.com</span>
+            <i class="fa-sharp fa-solid fa-phone-volume"></i>
+            <span>8 800 567.890.11</span>
+          </div>
+
+          <div class="socials">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </nav>
+      </section>
+
+      <!-- SECOND COMPONENT -->
+      <section>
+        <nav class="bottom-nav">
+          <img src="./images/Logo.png" alt="noxia logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Shortcodes</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shop</a></li>
+          </ul>
+          <div>
+            <i class="fa-solid fa-basket-shopping"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </nav>
+      </section>
+
+      <!-- THIRD COMPONENT -->
+      <section class="third-component-container">
+        <div>
+          <h1>We Make Agency with Excellence Services.</h1>
+          <h3>
+            The Two golden rules professional graphic designer don’t want you to
+            know about.
+          </h3>
+          <button>send message</button>
+        </div>
+        <img
+          src="./images/Vector Smart Object.png"
+          alt="workspace illustration"
+        />
+      </section>
+    </header>
+
+    <!-- FOURTH COMPONENT -->
+    <section>
+      <h3>Theme, build with usability in mind, great modern unique features</h3>
+      <div class="features">
+        <div class="feature-box">
+          <img src="./images/diamond.png" alt="dimond logo" />
+          <p>One-click Installation</p>
+          <p>
+            Etiam nec odio vestibulum est mattis effic iturut magna.
+            Pellentesque sit,
+          </p>
+        </div>
+        <div class="feature-box">
+          <img src="./images/piggy-bank.png" alt="dimond logo" />
+          <p>Constant Free Updates</p>
+          <p>
+            Cras metus enim, luctus ut urna in, rutr um accum san mi. Nunc magna
+            tortor,
+          </p>
+        </div>
+        <div class="feature-box">
+          <img src="./images/responsive.png" />
+          <p>Fully Responsive</p>
+          <p>
+            Pharetra vehicula erat. Etiam nec odio vestibulum est mattis
+            efficitur vel.
+          </p>
+        </div>
+      </div>
+      <button>view all services</button>
+    </section>
+
+    <section class="component-4 flex">
+      <div>
+        <h2>Your exciting journey into digital world starts</h2>
+        <p>
+          Vivamus gravida consequat sollicitudin. Curabitur tempus vitae eros
+          sed sodales. Morbi est tortor, varius id bibendum et, mattis sed
+          augue. Duis porttitor ante odio, id porttitor massa tempor vehicula.
+          Quisque congue augue rutrum neque iaculis porta. Etiam blandit mi,
+          quis commodo nisi varius eget. Etiam sem nibh, aliquet sit amet nunc
+          nec,
+        </p>
+        <div class="flex">
+          <img src="./images/rectangle.png" alt="rectangle" />
+          <div>
+            <p>Michael Phillips,</p>
+            <p>John Meo Ceo</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="backend">
+        <h2>We're constantly improving our skills to fulfill</h2>
+        <div class="flex">
+          <p>Backend Development</p>
+          <p>76%</p>
+        </div>
+        <div class="flex">
+          <p>Backend Development</p>
+          <p>76%</p>
+        </div>
+        <div class="flex">
+          <p>Backend Development</p>
+          <p>76%</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPONENT-5 -->
+    <section class="component-5 flex-column">
+      <p>Aliquam erat volutpat interdum</p>
+      <h2>
+        Get ready to start your exciting journey. Our agency will lead you
+        through the
+      </h2>
+      <i class="fa-solid fa-play"></i>
+
+      <p>Video name — 3:45 min.</p>
+    </section>
+
+    <!-- component 6 -->
+    <section class="flex">
+      <div>
+        <i class="fa-solid fa-chart-pie"></i>
+        <div>
+          <p>45k</p>
+          <p>Task completed</p>
+        </div>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-scale-balanced"></i>
+        <div>
+          <p>38k</p>
+          <p>Salling Products</p>
+        </div>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-chess-king"></i>
+        <div>
+          <p>5161</p>
+          <p>King Consulting</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPONENT 7 -->
+    <section class="flex component-7">
+      <div class="yellow-rec1"></div>
+      <div class="yellow-rec2"></div>
+
+      <div>
+        <h3>Innovative solutions boost your creative projects</h3>
+        <p>
+          Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar,
+          quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In
+          pellentesque viverra purus. Sed risus est, molestie nec hendrerit
+          hendrerit, sollicitudin nec ante. Pellentesque habitant morbi
+          tristique.
+        </p>
+
+        <div class="check-list">
+          <i class="fa-solid fa-check"></i>
+          <span>Senectus et netus et malesuada.</span>
+        </div>
+        <div class="check-list">
+          <i class="fa-solid fa-check"></i>
+          <span>Fames ac turpis egestas</span>
+        </div>
+        <div class="check-list">
+          <i class="fa-solid fa-check"></i>
+          <span>Duis ligula odio, tristique eget. </span>
+        </div>
+        <div class="check-list">
+          <i class="fa-solid fa-check"></i>
+          <span>Convallis a, blandit sollicitudin.</span>
+        </div>
+        <div class="check-list">
+          <i class="fa-solid fa-check"></i>
+          <span>In hac habitasse dictumst.</span>
+        </div>
+
+        <button>send message</button>
+      </div>
+    </section>
+  </body>
+</html>

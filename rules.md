@@ -1,0 +1,30 @@
+- Deadline: 23/06 - 23:59
+- Repository Name: "personal-project-html-and-css"
+- Select one project from two options: medium or hard
+- Each project has its own requirements:
+  - medium
+    - Required components: 6
+    - Total components: 11
+    - Each component score: 30
+    - Minimum score: 180
+    - Maximum score: 330
+  - hard
+    - Required components: 8
+    - Total components: 14
+    - Each component score: 30
+    - Minimum score: 240
+    - Maximum score: 420      
+- Each component divided by green line. YOU DON'T NEED TO ADD THE GREEN LINES IN YOUR PROJECT!
+- Each component should be independent and portable
+- Viewport resize should not break positions (use min-width, max-width, percentages)
+- Student HAS TO follow top to bottom through all components.
+- Student CAN NOT skip components
+- Student HAS TO follow pixel perfect rule.
+- Student HAS TO create structure like this:
+  - index.html
+  - styles folder
+  - images folder
+- Each component should have its own style file (for example, component-1.css, component-2.css)
+- Project should have shared.css file (This file should contain styles that different components need to share).
+- Students HAVE TO make multiple commits and show their work!
+- Project with only one or few commits will be discarded!
