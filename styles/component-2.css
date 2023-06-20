@@ -1,16 +1,48 @@
 .bottom-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   color: white;
+  font-family: "Muli";
+  border-color: #000000;
+  border-width: 1px;
+
+  /* border-style: dashed; */
+
+  filter: drop-shadow(-1.2246467996456087e-15px 20px 40px rgba(0, 0, 0, 0.15));
+
+  background: rgba(0, 0, 0, 0.4);
+
+  padding: 14px 360px 20px 379.45px;
+  gap: 45px;
 }
 ul {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  gap: 43px;
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #ee3364;
+}
+
+.noxia-logo {
+  width: 120px;
+  height: 57px;
+
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  font-style: normal;
+  text-align: left;
+
+  margin-right: 230px;
+}
+
+.noxia-logo span {
+  color: #ee3364;
 }

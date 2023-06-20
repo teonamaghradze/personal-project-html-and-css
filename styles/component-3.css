@@ -1,11 +1,12 @@
 .third-component-container h1 {
-  font-family: "GlacialIndifference-Bold";
+  font-family: "Glacial Indifference";
   font-size: 80px;
-  font-weight: normal;
+  font-weight: 700;
   line-height: 87px;
   font-style: normal;
   text-align: left;
   color: #ffffff;
+  /* width: 627px; */
 }
 
 .third-component-container h3 {
