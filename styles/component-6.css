@@ -1,0 +1,33 @@
+.component-6 {
+  color: white;
+  background: #ff434b;
+}
+.component-6 p:first-child {
+  font-family: "Muli";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 23px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.component-6 p:last-child {
+  font-family: "GlacialIndifference-Bold";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 34.9999885559082px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.component-6 h2 {
+  font-family: "GlacialIndifference-Bold";
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 47px;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}

@@ -10,13 +10,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- Fonts -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    /> -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+
     <title>personal project</title>
     <style>
       * {
@@ -24,178 +19,27 @@
         padding: 0;
         box-sizing: border-box;
       }
+
       body {
         background-color: pink;
-        font-family: "Muli";
+        /* font-family: "Muli"; */
         /* margin: 100px; */
       }
-
-      /***FIRST COMPONENT**/
-      .top-nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        opacity: 0.4;
-
-        /* font-size: 16px; */
-        /* line-height: 24px; */
-        /* font-style: normal; */
-        text-align: left;
-        color: #ffffff;
-      }
-      .top-nav i {
-        margin-right: 10px;
-      }
-      .top-nav span:first-of-type {
-        margin-right: 100px;
-      }
-
-      /******II component***/
-      .bottom-nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        color: white;
-      }
-      ul {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        list-style: none;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      /******THIRD COMPONENT****/
-      .third-component-container {
-        display: flex;
-        align-items: center;
-      }
-
-      .third-component-container h1 {
-        font-family: "GlacialIndifference-Bold";
-        font-size: 80px;
-        font-weight: normal;
-        line-height: 87px;
-        font-style: normal;
-        text-align: left;
-        color: #ffffff;
-      }
-
-      .third-component-container h3 {
-        font-family: "Muli-Regular";
-        font-size: 20px;
-        font-weight: normal;
-        line-height: 28px;
-        font-style: normal;
-        text-align: left;
-        color: #ffffff;
-      }
-
-      .third-component-container button {
-        background: #ee3364;
-        padding: 18px 25px 25px 25px;
-        border: none;
-        font-family: "Muli-Bold";
-        font-size: 12px;
-        font-weight: normal;
-        font-style: normal;
-        text-align: left;
-        color: #ffffff;
-      }
-
-      .third-component-container img {
-        width: 736px;
-        height: 727px;
-      }
-
       header {
         background: url("./images/background.png");
         background-size: cover;
-        padding: 100px;
+        padding-left: 380px;
       }
 
-      /**************IV*********/
-      .component-4 {
-        background-color: #edf7ff;
-      }
-      .features {
-        display: flex;
-        align-items: center;
-      }
       .flex {
         display: flex;
         align-items: center;
       }
 
-      /*****************V*****/
       .flex-column {
         display: flex;
         flex-direction: column;
         align-items: center;
-      }
-      .component-5 {
-        color: white;
-        background: #ff434b;
-      }
-      .component-5 p:first-child {
-        font-family: "Muli";
-        font-size: 16px;
-        font-weight: normal;
-        line-height: 23px;
-        font-style: normal;
-        text-align: left;
-        color: #ffffff;
-      }
-
-      .component-5 p:last-child {
-        font-family: "GlacialIndifference-Bold";
-        font-size: 14px;
-        font-weight: normal;
-        line-height: 34.9999885559082px;
-        font-style: normal;
-        text-align: left;
-        color: #ffffff;
-      }
-
-      .component-5 h2 {
-        font-family: "GlacialIndifference-Bold";
-        font-size: 45px;
-        font-weight: normal;
-        line-height: 47px;
-        font-style: normal;
-        text-align: center;
-        color: #ffffff;
-      }
-
-      /*****VI***/
-      .yellow-rec1,
-      .yellow-rec2 {
-        width: 426px;
-        height: 547px;
-        border-color: #000000;
-        border-width: 1px;
-        border-style: dashed;
-        background: #ffa723;
-      }
-
-      .yellow-rec1 {
-        margin-right: 600px;
-      }
-
-      .yellow-rec2 {
-        filter: drop-shadow(
-          8.5px 14.722432136535645px 25px rgba(0, 0, 0, 0.29)
-        );
-        position: absolute;
-        left: 10%;
-        top: 5%;
-      }
-
-      .component-7 {
-        position: absolute;
       }
     </style>
   </head>
@@ -240,7 +84,7 @@
       </section>
 
       <!-- THIRD COMPONENT -->
-      <section class="third-component-container">
+      <section class="flex third-component-container">
         <div>
           <h1>We Make Agency with Excellence Services.</h1>
           <h3>
@@ -259,7 +103,7 @@
     <!-- FOURTH COMPONENT -->
     <section>
       <h3>Theme, build with usability in mind, great modern unique features</h3>
-      <div class="features">
+      <div class="flex features">
         <div class="feature-box">
           <img src="./images/diamond.png" alt="dimond logo" />
           <p>One-click Installation</p>
@@ -288,7 +132,9 @@
       <button>view all services</button>
     </section>
 
-    <section class="component-4 flex">
+    <!-- COMPONENT-5 -->
+
+    <section class="component-5 flex">
       <div>
         <h2>Your exciting journey into digital world starts</h2>
         <p>
@@ -325,8 +171,8 @@
       </div>
     </section>
 
-    <!-- COMPONENT-5 -->
-    <section class="component-5 flex-column">
+    <!-- COMPONENT-6 -->
+    <section class="component-6 flex-column">
       <p>Aliquam erat volutpat interdum</p>
       <h2>
         Get ready to start your exciting journey. Our agency will lead you
@@ -337,7 +183,7 @@
       <p>Video name — 3:45 min.</p>
     </section>
 
-    <!-- component 6 -->
+    <!-- component 7 -->
     <section class="flex">
       <div>
         <i class="fa-solid fa-chart-pie"></i>
@@ -364,8 +210,8 @@
       </div>
     </section>
 
-    <!-- COMPONENT 7 -->
-    <section class="flex component-7">
+    <!-- COMPONENT 8 -->
+    <section class="flex component-8">
       <div class="yellow-rec1"></div>
       <div class="yellow-rec2"></div>
 

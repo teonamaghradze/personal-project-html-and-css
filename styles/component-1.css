@@ -1,0 +1,13 @@
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.4;
+  color: #ffffff;
+}
+.top-nav i {
+  margin-right: 10px;
+}
+.top-nav span:first-of-type {
+  margin-right: 100px;
+}

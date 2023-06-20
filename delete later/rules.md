@@ -1,20 +1,13 @@
 - Deadline: 23/06 - 23:59
 - Repository Name: "personal-project-html-and-css"
-- Select one project from two options: medium or hard
-- Each project has its own requirements:
-  - medium
-    - Required components: 6
-    - Total components: 11
-    - Each component score: 30
-    - Minimum score: 180
-    - Maximum score: 330
+
   - hard
     - Required components: 8
     - Total components: 14
     - Each component score: 30
     - Minimum score: 240
-    - Maximum score: 420      
-- Each component divided by green line. YOU DON'T NEED TO ADD THE GREEN LINES IN YOUR PROJECT!
+    - Maximum score: 420
+
 - Each component should be independent and portable
 - Viewport resize should not break positions (use min-width, max-width, percentages)
 - Student HAS TO follow top to bottom through all components.

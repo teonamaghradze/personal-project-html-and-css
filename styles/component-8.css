@@ -1,0 +1,24 @@
+.yellow-rec1,
+.yellow-rec2 {
+  width: 426px;
+  height: 547px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: dashed;
+  background: #ffa723;
+}
+
+.yellow-rec1 {
+  margin-right: 600px;
+}
+
+.yellow-rec2 {
+  filter: drop-shadow(8.5px 14.722432136535645px 25px rgba(0, 0, 0, 0.29));
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+
+.component-8 {
+  position: absolute;
+}
