@@ -53,5 +53,17 @@ a:hover {
 
 .cart-search {
   gap: 18px;
+  position: relative;
   /* margin-top: 7px; */
+}
+
+.cart-search span {
+  width: 15px;
+  height: 15px;
+  font-size: 13px;
+  text-align: center;
+  background: #ee3364;
+  border-radius: 50%;
+  position: absolute;
+  left: 16%;
 }
