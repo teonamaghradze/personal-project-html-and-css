@@ -1,3 +1,148 @@
 .component-5 {
   background-color: #edf7ff;
 }
+
+.ceo-box h2,
+.backend-charts h2 {
+  font-family: "Glacial Indifference";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  font-style: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.ceo-box h2 {
+  margin-bottom: 34px;
+}
+
+.backend-charts h2 {
+  margin-bottom: 25px;
+}
+
+.ceo-box > p {
+  font-family: "Muli";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  font-style: normal;
+  letter-spacing: -0.4px;
+  /* word-spacing: 0.01px; */
+  /* text-align: left; */
+  color: #484848;
+  width: 560px;
+  margin-bottom: 25px;
+  padding-left: 2px;
+}
+
+.ceo-box {
+  padding-left: 380px;
+}
+
+.ceo-names {
+  font-family: "Glacial Indifference";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 25px;
+  font-style: normal;
+  text-align: left;
+  color: #7e7e7e;
+}
+
+.backend-charts {
+  /* width: 432px; */
+  padding-right: 360px;
+}
+
+.backend-charts p {
+  font-family: "Glacial Indifference";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 44px;
+  font-style: normal;
+  text-align: left;
+  color: #373737;
+}
+
+.component-5 {
+  display: flex;
+  gap: 72px;
+  margin-top: 138px;
+  padding-top: 110px;
+  padding-bottom: 101px;
+
+  /* padding: 200px; */
+}
+
+.graphic {
+  width: 100%;
+  height: 10px;
+}
+.stat-1 .graphic {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 51, 100, 1) 0%,
+    rgba(238, 51, 100, 1) 74.5%,
+    rgba(255, 255, 255, 1) 74.5%
+  );
+}
+.stat-2 .graphic {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 51, 100, 1) 0%,
+    rgba(238, 51, 100, 1) 83.4%,
+    rgba(255, 255, 255, 1) 83.4%
+  );
+}
+.stat-3 .graphic {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 51, 100, 1) 0%,
+    rgba(238, 51, 100, 1) 74.5%,
+    rgba(255, 255, 255, 1) 74.5%
+  );
+}
+
+.graphic {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 51, 100, 1) 0%,
+    rgba(238, 51, 100, 1) 58.7%,
+    rgba(255, 255, 255, 1) 50.5%
+  );
+}
+
+.stat-desc {
+  justify-content: space-between;
+}
+
+.stat-1 {
+  margin-bottom: 14px;
+}
+
+.stat-2 {
+  margin-bottom: 15px;
+}
+
+.ceo-names p:last-of-type {
+  font-family: "Glacial Indifference";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 25px;
+  font-style: normal;
+  text-align: left;
+
+  color: #7e7e7e;
+}
+
+.ceo-names p:first-of-type {
+  color: #2c2b2a;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 1px;
+}
+
+.pic-names {
+  gap: 28px;
+}

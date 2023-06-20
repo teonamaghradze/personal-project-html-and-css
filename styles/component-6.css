@@ -1,6 +1,8 @@
 .component-6 {
   color: white;
   background: #ff434b;
+  padding-top: 162px;
+  padding-bottom: 155px;
 }
 .component-6 p:first-child {
   font-family: "Muli";
@@ -10,10 +12,11 @@
   font-style: normal;
   text-align: left;
   color: #ffffff;
+  margin-bottom: 14px;
 }
 
 .component-6 p:last-child {
-  font-family: "GlacialIndifference-Bold";
+  font-family: "Glacial Indifference";
   font-size: 14px;
   font-weight: normal;
   line-height: 34.9999885559082px;
@@ -23,11 +26,19 @@
 }
 
 .component-6 h2 {
-  font-family: "GlacialIndifference-Bold";
+  font-family: "Glacial Indifference";
   font-size: 45px;
-  font-weight: normal;
+  font-weight: 700;
   line-height: 47px;
   font-style: normal;
   text-align: center;
   color: #ffffff;
+  width: 792px;
+  word-spacing: -6.98px;
+  letter-spacing: 0.1px;
+  margin-bottom: 88px;
+}
+
+.fa-play {
+  margin-bottom: 40px;
 }
