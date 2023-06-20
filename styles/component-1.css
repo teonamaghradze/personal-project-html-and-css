@@ -1,10 +1,12 @@
 .top-nav {
   justify-content: space-between;
-  opacity: 0.4;
-  color: #ffffff;
+  color: #bdbcbc;
   font-family: "Muli";
 
-  padding: 13px 360px 20px 380px;
+  padding: 15px 384px 20px 378px;
+  filter: drop-shadow(-1.2246467996456087e-15px 20px 40px rgba(0, 0, 0, 0.15));
+
+  background: rgba(0, 0, 0, 0.4);
 }
 .top-nav img:first-of-type {
   /* margin-right: 20px; */
@@ -21,8 +23,12 @@
 
 .top-nav p:last-of-type {
   font-size: 16px;
-  /* color: red; */
 }
 .socials {
   gap: 20px;
+}
+
+.socials i:hover {
+  color: #fff;
+  cursor: pointer;
 }

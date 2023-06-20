@@ -9,14 +9,17 @@
 
   filter: drop-shadow(-1.2246467996456087e-15px 20px 40px rgba(0, 0, 0, 0.15));
 
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(21, 21, 21, 0.4);
 
   padding: 14px 360px 20px 379.45px;
   gap: 45px;
+
+  /* margin-bottom: 85px; */
 }
 ul {
-  gap: 43px;
+  gap: 42px;
   list-style: none;
+  margin-right: 91px;
 }
 
 a {
@@ -41,8 +44,14 @@ a:hover {
   text-align: left;
 
   margin-right: 230px;
+  /* margin-top: 3px; */
 }
 
 .noxia-logo span {
   color: #ee3364;
+}
+
+.cart-search {
+  gap: 18px;
+  /* margin-top: 7px; */
 }

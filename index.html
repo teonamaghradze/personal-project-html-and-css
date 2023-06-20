@@ -22,8 +22,15 @@
 
     <title>personal project</title>
     <style>
+      * {
+        box-sizing: border-box;
+      }
       body {
         background-color: pink;
+      }
+
+      .container {
+        width: 1920px;
       }
       header {
         background: url("./images/background.png");
@@ -43,215 +50,219 @@
     </style>
   </head>
   <body>
-    <header>
-      <!-- FIRST COMPONENT -->
-      <section>
-        <nav class="top-nav flex">
-          <div class="flex">
+    <div class="container">
+      <header>
+        <!-- FIRST COMPONENT -->
+        <section>
+          <nav class="top-nav flex">
             <div class="flex">
-              <img src="./images/email.png" alt="email" />
-              <p>hello@mexo.com</p>
+              <div class="flex">
+                <img src="./images/email.png" alt="email" />
+                <p>hello@mexo.com</p>
+              </div>
+
+              <div class="flex">
+                <img src="./images/phone.png" alt="phone" />
+                <p>8 800 567.890.11</p>
+              </div>
             </div>
 
-            <div class="flex">
-              <img src="./images/phone.png" alt="phone" />
-              <p>8 800 567.890.11</p>
+            <div class="socials flex">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-google-plus-g"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
             </div>
-          </div>
+          </nav>
+        </section>
 
-          <div class="socials flex">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-google-plus-g"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
-          </div>
-        </nav>
-      </section>
+        <!-- SECOND COMPONENT -->
+        <section>
+          <nav class="flex bottom-nav">
+            <p class="noxia-logo">Noxia<span>.</span></p>
+            <ul class="flex">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Shortcodes</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Shop</a></li>
+            </ul>
+            <div class="cart-search flex">
+              <i class="fa-solid fa-basket-shopping"></i>
+              <img src="./images/search.png" alt="search icon" />
+            </div>
+          </nav>
+        </section>
 
-      <!-- SECOND COMPONENT -->
-      <section>
-        <nav class="flex bottom-nav">
-          <p class="noxia-logo">Noxia<span>.</span></p>
-          <ul class="flex">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Shortcodes</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Shop</a></li>
-          </ul>
+        <!-- THIRD COMPONENT -->
+        <section class="component-3">
           <div>
-            <i class="fa-solid fa-basket-shopping"></i>
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <h1>We Make Agency with Excellence Services.</h1>
+            <h3>
+              The Two golden rules professional graphic designer don’t want you
+              to know about.
+            </h3>
+            <button>send message</button>
           </div>
-        </nav>
+          <img
+            src="./images/Vector Smart Object.png"
+            alt="workspace illustration"
+          />
+        </section>
+      </header>
+
+      <!-- FOURTH COMPONENT -->
+      <section>
+        <h3>
+          Theme, build with usability in mind, great modern unique features
+        </h3>
+        <div class="flex features">
+          <div class="feature-box">
+            <img src="./images/diamond.png" alt="dimond logo" />
+            <p>One-click Installation</p>
+            <p>
+              Etiam nec odio vestibulum est mattis effic iturut magna.
+              Pellentesque sit,
+            </p>
+          </div>
+          <div class="feature-box">
+            <img src="./images/piggy-bank.png" alt="dimond logo" />
+            <p>Constant Free Updates</p>
+            <p>
+              Cras metus enim, luctus ut urna in, rutr um accum san mi. Nunc
+              magna tortor,
+            </p>
+          </div>
+          <div class="feature-box">
+            <img src="./images/responsive.png" />
+            <p>Fully Responsive</p>
+            <p>
+              Pharetra vehicula erat. Etiam nec odio vestibulum est mattis
+              efficitur vel.
+            </p>
+          </div>
+        </div>
+        <button>view all services</button>
       </section>
 
-      <!-- THIRD COMPONENT -->
-      <section class="flex third-component-container">
+      <!-- COMPONENT-5 -->
+
+      <section class="component-5 flex">
         <div>
-          <h1>We Make Agency with Excellence Services.</h1>
-          <h3>
-            The Two golden rules professional graphic designer don’t want you to
-            know about.
-          </h3>
+          <h2>Your exciting journey into digital world starts</h2>
+          <p>
+            Vivamus gravida consequat sollicitudin. Curabitur tempus vitae eros
+            sed sodales. Morbi est tortor, varius id bibendum et, mattis sed
+            augue. Duis porttitor ante odio, id porttitor massa tempor vehicula.
+            Quisque congue augue rutrum neque iaculis porta. Etiam blandit mi,
+            quis commodo nisi varius eget. Etiam sem nibh, aliquet sit amet nunc
+            nec,
+          </p>
+          <div class="flex">
+            <img src="./images/rectangle.png" alt="rectangle" />
+            <div>
+              <p>Michael Phillips,</p>
+              <p>John Meo Ceo</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="backend">
+          <h2>We're constantly improving our skills to fulfill</h2>
+          <div class="flex">
+            <p>Backend Development</p>
+            <p>76%</p>
+          </div>
+          <div class="flex">
+            <p>Backend Development</p>
+            <p>76%</p>
+          </div>
+          <div class="flex">
+            <p>Backend Development</p>
+            <p>76%</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMPONENT-6 -->
+      <section class="component-6 flex-column">
+        <p>Aliquam erat volutpat interdum</p>
+        <h2>
+          Get ready to start your exciting journey. Our agency will lead you
+          through the
+        </h2>
+        <i class="fa-solid fa-play"></i>
+
+        <p>Video name — 3:45 min.</p>
+      </section>
+
+      <!-- component 7 -->
+      <section class="flex">
+        <div>
+          <i class="fa-solid fa-chart-pie"></i>
+          <div>
+            <p>45k</p>
+            <p>Task completed</p>
+          </div>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-scale-balanced"></i>
+          <div>
+            <p>38k</p>
+            <p>Salling Products</p>
+          </div>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-chess-king"></i>
+          <div>
+            <p>5161</p>
+            <p>King Consulting</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMPONENT 8 -->
+      <section class="flex component-8">
+        <div class="yellow-rec1"></div>
+        <div class="yellow-rec2"></div>
+
+        <div>
+          <h3>Innovative solutions boost your creative projects</h3>
+          <p>
+            Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar,
+            quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In
+            pellentesque viverra purus. Sed risus est, molestie nec hendrerit
+            hendrerit, sollicitudin nec ante. Pellentesque habitant morbi
+            tristique.
+          </p>
+
+          <div class="check-list">
+            <i class="fa-solid fa-check"></i>
+            <span>Senectus et netus et malesuada.</span>
+          </div>
+          <div class="check-list">
+            <i class="fa-solid fa-check"></i>
+            <span>Fames ac turpis egestas</span>
+          </div>
+          <div class="check-list">
+            <i class="fa-solid fa-check"></i>
+            <span>Duis ligula odio, tristique eget. </span>
+          </div>
+          <div class="check-list">
+            <i class="fa-solid fa-check"></i>
+            <span>Convallis a, blandit sollicitudin.</span>
+          </div>
+          <div class="check-list">
+            <i class="fa-solid fa-check"></i>
+            <span>In hac habitasse dictumst.</span>
+          </div>
+
           <button>send message</button>
         </div>
-        <img
-          src="./images/Vector Smart Object.png"
-          alt="workspace illustration"
-        />
       </section>
-    </header>
-
-    <!-- FOURTH COMPONENT -->
-    <section>
-      <h3>Theme, build with usability in mind, great modern unique features</h3>
-      <div class="flex features">
-        <div class="feature-box">
-          <img src="./images/diamond.png" alt="dimond logo" />
-          <p>One-click Installation</p>
-          <p>
-            Etiam nec odio vestibulum est mattis effic iturut magna.
-            Pellentesque sit,
-          </p>
-        </div>
-        <div class="feature-box">
-          <img src="./images/piggy-bank.png" alt="dimond logo" />
-          <p>Constant Free Updates</p>
-          <p>
-            Cras metus enim, luctus ut urna in, rutr um accum san mi. Nunc magna
-            tortor,
-          </p>
-        </div>
-        <div class="feature-box">
-          <img src="./images/responsive.png" />
-          <p>Fully Responsive</p>
-          <p>
-            Pharetra vehicula erat. Etiam nec odio vestibulum est mattis
-            efficitur vel.
-          </p>
-        </div>
-      </div>
-      <button>view all services</button>
-    </section>
-
-    <!-- COMPONENT-5 -->
-
-    <section class="component-5 flex">
-      <div>
-        <h2>Your exciting journey into digital world starts</h2>
-        <p>
-          Vivamus gravida consequat sollicitudin. Curabitur tempus vitae eros
-          sed sodales. Morbi est tortor, varius id bibendum et, mattis sed
-          augue. Duis porttitor ante odio, id porttitor massa tempor vehicula.
-          Quisque congue augue rutrum neque iaculis porta. Etiam blandit mi,
-          quis commodo nisi varius eget. Etiam sem nibh, aliquet sit amet nunc
-          nec,
-        </p>
-        <div class="flex">
-          <img src="./images/rectangle.png" alt="rectangle" />
-          <div>
-            <p>Michael Phillips,</p>
-            <p>John Meo Ceo</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="backend">
-        <h2>We're constantly improving our skills to fulfill</h2>
-        <div class="flex">
-          <p>Backend Development</p>
-          <p>76%</p>
-        </div>
-        <div class="flex">
-          <p>Backend Development</p>
-          <p>76%</p>
-        </div>
-        <div class="flex">
-          <p>Backend Development</p>
-          <p>76%</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- COMPONENT-6 -->
-    <section class="component-6 flex-column">
-      <p>Aliquam erat volutpat interdum</p>
-      <h2>
-        Get ready to start your exciting journey. Our agency will lead you
-        through the
-      </h2>
-      <i class="fa-solid fa-play"></i>
-
-      <p>Video name — 3:45 min.</p>
-    </section>
-
-    <!-- component 7 -->
-    <section class="flex">
-      <div>
-        <i class="fa-solid fa-chart-pie"></i>
-        <div>
-          <p>45k</p>
-          <p>Task completed</p>
-        </div>
-      </div>
-
-      <div>
-        <i class="fa-solid fa-scale-balanced"></i>
-        <div>
-          <p>38k</p>
-          <p>Salling Products</p>
-        </div>
-      </div>
-
-      <div>
-        <i class="fa-solid fa-chess-king"></i>
-        <div>
-          <p>5161</p>
-          <p>King Consulting</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- COMPONENT 8 -->
-    <section class="flex component-8">
-      <div class="yellow-rec1"></div>
-      <div class="yellow-rec2"></div>
-
-      <div>
-        <h3>Innovative solutions boost your creative projects</h3>
-        <p>
-          Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar,
-          quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In
-          pellentesque viverra purus. Sed risus est, molestie nec hendrerit
-          hendrerit, sollicitudin nec ante. Pellentesque habitant morbi
-          tristique.
-        </p>
-
-        <div class="check-list">
-          <i class="fa-solid fa-check"></i>
-          <span>Senectus et netus et malesuada.</span>
-        </div>
-        <div class="check-list">
-          <i class="fa-solid fa-check"></i>
-          <span>Fames ac turpis egestas</span>
-        </div>
-        <div class="check-list">
-          <i class="fa-solid fa-check"></i>
-          <span>Duis ligula odio, tristique eget. </span>
-        </div>
-        <div class="check-list">
-          <i class="fa-solid fa-check"></i>
-          <span>Convallis a, blandit sollicitudin.</span>
-        </div>
-        <div class="check-list">
-          <i class="fa-solid fa-check"></i>
-          <span>In hac habitasse dictumst.</span>
-        </div>
-
-        <button>send message</button>
-      </div>
-    </section>
+    </div>
   </body>
 </html>

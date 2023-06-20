@@ -1,4 +1,4 @@
-.third-component-container h1 {
+.component-3 h1 {
   font-family: "Glacial Indifference";
   font-size: 80px;
   font-weight: 700;
@@ -7,31 +7,50 @@
   text-align: left;
   color: #ffffff;
   /* width: 627px; */
+
+  margin-bottom: 25px;
+  margin-top: 235px;
 }
 
-.third-component-container h3 {
-  font-family: "Muli-Regular";
+.component-3 h3 {
+  font-family: "Muli";
   font-size: 20px;
   font-weight: normal;
-  line-height: 28px;
+  line-height: 25px;
   font-style: normal;
   text-align: left;
   color: #ffffff;
+  margin-bottom: 60px;
+  width: 560px;
+  line-height: 26px;
+  /* word-spacing: -2px; */
 }
 
-.third-component-container button {
+.component-3 button {
   background: #ee3364;
-  padding: 18px 25px 25px 25px;
+  /* padding: 18px 25px 22px 60px; */
   border: none;
-  font-family: "Muli-Bold";
+  font-family: "Muli";
   font-size: 12px;
   font-weight: normal;
   font-style: normal;
-  text-align: left;
+  text-align: center;
   color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  width: 180px;
+  height: 58px;
 }
 
-.third-component-container img {
+.component-3 img {
+  margin-top: 85px;
   width: 736px;
   height: 727px;
+}
+
+.component-3 {
+  padding-left: 373px;
+  padding-right: 163px;
+  display: flex;
 }
