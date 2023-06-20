@@ -1,0 +1,16 @@
+.gray-boxes > * {
+  width: 384.5px;
+  height: 574px;
+  background: #bbbbbb;
+}
+
+.gray-box2,
+.gray-box4 {
+  background-color: #d0d0d0;
+}
+
+.gray-box3:hover {
+  background-color: #ee3364;
+  border: 10px solid #242424;
+  cursor: pointer;
+}

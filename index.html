@@ -11,10 +11,19 @@
       referrerpolicy="no-referrer"
     />
     <!-- fonts -->
+    <link href=“https://fonts.cdnfonts.com/css/glacial-indifference-2”
+    rel=“stylesheet”>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
 
@@ -25,12 +34,10 @@
       * {
         box-sizing: border-box;
       }
-      body {
-        /* background-color: pink; */
-      }
 
       .container {
         width: 1920px;
+        /* max-width: 1920px; */
       }
       header {
         background: url("./images/background.png");
@@ -241,7 +248,7 @@
 
       <!-- COMPONENT 8 -->
       <section class="component-8">
-        <div>
+        <div class="relative-div">
           <div class="yellow-rec1"></div>
           <div class="yellow-rec2"></div>
         </div>
@@ -282,9 +289,122 @@
       </section>
 
       <!-- COMPONENT 9 -->
-      <section>
+      <section class="highlights">
         <p>news & event</p>
         <h2>Our Highlight Showcases</h2>
+
+        <div class="cards">
+          <div class="card card-1"></div>
+          <div class="card card-2"></div>
+          <div class="card card-3"></div>
+          <div class="card card-4"></div>
+          <div class="card card-5"></div>
+          <div class="card card-6"></div>
+        </div>
+
+        <button>view all</button>
+      </section>
+
+      <!-- COMPONENT 10 -->
+      <section class="services">
+        <p class="news">news & event</p>
+        <h2>Services Package</h2>
+
+        <div class="plans flex">
+          <div class="plan-box">
+            <p class="basic">basic plan.</p>
+            <p>month</p>
+
+            <div class="cost">
+              <i class="fa-solid fa-dollar-sign fa-2x"></i>
+              <span class="num">10</span>
+            </div>
+            <div class="plan-profits">
+              <p><span>10GB</span> Storage Space</p>
+              <p><span>50GB</span> Bandwidth</p>
+              <p><span>10 Free</span> Sub-Domains</p>
+            </div>
+
+            <button>purchase</button>
+          </div>
+
+          <div class="plan-box">
+            <p class="basic">basic plan.</p>
+            <p>month</p>
+
+            <div class="cost">
+              <i class="fa-solid fa-dollar-sign fa-2x"></i>
+              <span class="num">15</span>
+            </div>
+            <div class="plan-profits">
+              <p><span>10GB</span> Storage Space</p>
+              <p><span>50GB</span> Bandwidth</p>
+              <p><span>10 Free</span> Sub-Domains</p>
+            </div>
+
+            <button>purchase</button>
+          </div>
+
+          <div class="plan-box">
+            <p class="basic">basic plan.</p>
+            <p>month</p>
+
+            <div class="cost">
+              <i class="fa-solid fa-dollar-sign fa-2x"></i>
+              <span class="num">19</span>
+            </div>
+            <div class="plan-profits">
+              <p><span>10GB</span> Storage Space</p>
+              <p><span>50GB</span> Bandwidth</p>
+              <p><span>10 Free</span> Sub-Domains</p>
+            </div>
+
+            <button>purchase</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMPONENT-11 -->
+      <section>
+        <div class="flex gray-boxes">
+          <div class="gray-box1"></div>
+          <div class="gray-box2"></div>
+          <div class="gray-box3"></div>
+          <div class="gray-box4"></div>
+          <div class="gray-box5"></div>
+        </div>
+      </section>
+
+      <!-- COMPONENT-12  -->
+      <section>
+        <img src="./images/layer2.png" alt="rocks" />
+        <img src="./images/🧑‍🚀.png" alt="cosmonaut" />
+
+        <h2>
+          <span>Leading the way</span> in building & civil Construction forever
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis
+          tortor ex. Morbi cursus sed neque quis dictum. Duis bibendum
+          ullamcorper pharetra.lis.spendisse maximus
+        </p>
+
+        <form>
+          <select>
+            <option placeholder="Business services consulting" value="volvo">
+              Business services consulting
+            </option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select>
+
+          <input type="text" placeholder="Name" />
+          <input type="number" placeholder="Phone Number" />
+          <input type="submit" value="submit now" />
+        </form>
+
+        <img src="./images/layer1.png" alt="rocks" />
       </section>
     </div>
   </body>

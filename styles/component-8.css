@@ -1,5 +1,5 @@
 .component-8 {
-  position: absolute;
+  /* position: absolute; */
   margin-left: 361px;
   display: flex;
 }
@@ -21,10 +21,13 @@
 .yellow-rec2 {
   filter: drop-shadow(8.5px 14.722432136535645px 25px rgba(0, 0, 0, 0.29));
   position: absolute;
-  left: 6%;
-  top: 28%;
+  left: 12%;
+  top: 25%;
 }
 
+.relative-div {
+  position: relative;
+}
 .solutions h3 {
   font-family: "Glacial Indifference";
   font-size: 45px;

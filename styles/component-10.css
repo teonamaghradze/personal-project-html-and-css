@@ -1,0 +1,131 @@
+.services {
+  /* padding-left: 380px; */
+  padding-top: 126px;
+  /* margin-top: 200px; */
+  padding-bottom: 140px;
+  /* background-color: red; */
+}
+
+.news {
+  font-family: "Glacial Indifference";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 36px;
+  font-style: normal;
+  text-align: left;
+  color: #ee3364;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-left: 535px;
+  padding-left: 372px;
+}
+
+.services h2 {
+  font-family: "Glacial Indifference";
+
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 36px;
+  font-style: normal;
+  text-align: left;
+  color: #222222;
+  margin-bottom: 74px;
+  margin-left: 697px;
+}
+
+/*************************/
+.plan-box {
+  padding-top: 50px;
+  text-align: center;
+  width: 370px;
+  height: 530px;
+
+  border-color: #eeeeee;
+  border-width: 4px;
+  border-style: solid;
+
+  background: #ffffff;
+}
+
+.basic {
+  font-family: "Glacial Indifference";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  /* letter-spacing: 5px; */
+  color: #0b0b0b;
+  margin-bottom: 15px;
+}
+
+.plan-box > p:nth-child(2) {
+  font-family: "Muli";
+  font-size: 13px;
+  color: #0b0b0b;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.num {
+  font-family: "Glacial Indifference";
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 30px;
+
+  /* letter-spacing: 5px;*/
+  color: #0b0b0b;
+}
+
+.cost {
+  text-align: left;
+  padding-left: 80px;
+  margin-bottom: 75px;
+}
+
+.plan-profits span {
+  font-family: "Cambay";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  font-style: normal;
+  text-align: center;
+  color: #8799a3;
+}
+
+.plan-profits p {
+  font-family: "Cambay";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #636363;
+}
+
+.plan-profits {
+  margin-bottom: 20px;
+}
+
+.plans button {
+  width: 180px;
+  height: 58px;
+
+  background: #1e1e1e;
+  border: none;
+  font-family: "Muli";
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 90px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.plans {
+  margin-left: 373px;
+  gap: 30px;
+}
+
+.plan-box:hover {
+  background-color: #ee3364;
+  color: white;
+}
