@@ -1,0 +1,93 @@
+.astronaut {
+  display: flex;
+  margin-left: 50px;
+  background-color: #f2f2f2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+select,
+input {
+  width: 350px;
+  height: 53.5px;
+  border: none;
+  font-family: "Muli";
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 22px;
+  font-style: normal;
+  text-align: left;
+  color: #222222;
+}
+
+select,
+.phone {
+  background-color: #cacaca;
+  margin-right: 20px;
+}
+
+.name {
+  border: 1px solid #cacaca;
+}
+
+.btn {
+  background: #ee3364;
+
+  font-family: "Muli";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.600000381469727px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.astronaut h2 {
+  font-family: "Glacial Indifference";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  font-style: normal;
+  text-align: left;
+  /* letter-spacing: -60px; */
+  color: #2b2b2b;
+  margin-top: 185px;
+  margin-bottom: 18px;
+}
+
+.astronaut h2 span {
+  color: #ee3364;
+}
+
+.astronaut p {
+  font-family: "Muli";
+  font-size: 17px;
+  color: #2e2e2e;
+  margin-bottom: 46px;
+  line-height: 1px;
+  line-height: 26px;
+}
+
+.rocks1 {
+  width: 101px;
+  height: 265px;
+  margin-top: 140px;
+  margin-right: 75px;
+}
+
+.rocks2 {
+  width: 318px;
+  height: 255px;
+  margin-top: 391px;
+}
+.astronaut-img {
+  margin-top: 108px;
+  transform: rotate(-11deg);
+  width: 500px;
+  height: 470px;
+  margin-right: 90px;
+}

@@ -4,7 +4,7 @@
 }
 
 .cards {
-  width: 1174px;
+  width: 1173px;
   display: grid;
   grid-template: repeat(3, 1fr) / 1fr 1fr;
   margin-bottom: 140px;
@@ -22,13 +22,13 @@
   background-color: #5c5c5c;
 }
 .card-4,
-.card-6 {
-  width: 584px;
-  background-color: #3a3a3a;
+.card-5 {
+  /* width: 584px; */
+  background-color: #353535;
 }
 
-.card-5 {
-  background-color: #353535;
+.card-6 {
+  background-color: #3a3a3a;
 }
 
 .highlights p {
@@ -40,7 +40,7 @@
   text-align: left;
   color: #ee3364;
   text-transform: uppercase;
-  margin-bottom: 22px;
+  margin-bottom: 21px;
   margin-left: 535px;
 }
 
@@ -54,7 +54,7 @@
   text-align: left;
   color: #222222;
   margin-bottom: 74px;
-  margin-left: 263px;
+  margin-left: 262px;
 }
 
 .highlights button {
@@ -74,8 +74,8 @@
   margin-left: 490px;
 }
 .highlights {
-  margin-top: 152px;
-  padding-left: 369px;
+  margin-top: 153px;
+  padding-left: 370px;
   padding-top: 128px;
   padding-bottom: 140px;
   background-color: #f2f2f2;

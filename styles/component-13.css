@@ -1,0 +1,67 @@
+.testimonial {
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.quote-marks {
+  margin-top: 190px;
+  /* justify-content: space-between; */
+  gap: 50px;
+  margin-left: 776px;
+  margin-bottom: 19px;
+}
+
+.quote-marks img:first-child {
+  margin-right: 12px;
+}
+
+.quote-marks :nth-child(2) {
+  margin-right: 17px;
+}
+.author {
+  font-family: "Glacial Indifference";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 27px;
+  font-style: normal;
+  text-align: center;
+  color: #303030;
+  margin-left: 34px;
+}
+
+.company {
+  font-family: "Muli";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  font-style: normal;
+  text-align: center;
+  color: #c4c4c4;
+  margin-left: 34px;
+  margin-bottom: 10px;
+}
+
+.comment {
+  font-family: "Muli";
+  font-size: 17px;
+  /* font-weight: 700; */
+  line-height: 27px;
+  font-style: italic;
+  text-align: center;
+  color: #8d8d8d;
+  width: 800px;
+  margin-left: 586px;
+  margin-bottom: 32px;
+}
+
+.dots {
+  margin-left: 945px;
+  gap: 10px;
+  margin-bottom: 135px;
+}
+
+.sponsors {
+  gap: 20px;
+  gap: 133px;
+  margin-left: 419px;
+}

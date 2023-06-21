@@ -33,6 +33,7 @@ a:hover {
 }
 
 .noxia-logo {
+  /*es mgoni arunda*/
   width: 120px;
   height: 57px;
 
@@ -42,6 +43,7 @@ a:hover {
   line-height: 55px;
   font-style: normal;
   text-align: left;
+  color: #fff;
 
   margin-right: 230px;
   /* margin-top: 3px; */
