@@ -2,6 +2,7 @@
   display: flex;
   margin-left: 50px;
   background-color: #f2f2f2;
+  padding-bottom: 58px;
 }
 
 form {
@@ -53,9 +54,9 @@ select,
   line-height: 50px;
   font-style: normal;
   text-align: left;
-  /* letter-spacing: -60px; */
+  letter-spacing: -3px;
   color: #2b2b2b;
-  margin-top: 185px;
+  margin-top: 196px;
   margin-bottom: 18px;
 }
 
@@ -68,8 +69,10 @@ select,
   font-size: 17px;
   color: #2e2e2e;
   margin-bottom: 46px;
-  line-height: 1px;
-  line-height: 26px;
+  line-height: 27px;
+  letter-spacing: -0.4px;
+  color: red;
+  padding-left: 5px;
 }
 
 .rocks1 {
@@ -82,7 +85,7 @@ select,
 .rocks2 {
   width: 318px;
   height: 255px;
-  margin-top: 391px;
+  margin-top: 392px;
 }
 .astronaut-img {
   margin-top: 108px;

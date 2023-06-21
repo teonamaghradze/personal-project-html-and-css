@@ -1,3 +1,11 @@
+.highlights {
+  margin-top: 153px;
+  padding-left: 370px;
+  padding-top: 132px;
+  padding-bottom: 140px;
+  background-color: #f2f2f2;
+}
+
 .card {
   width: 586.8px;
   height: 730px;
@@ -8,7 +16,6 @@
   display: grid;
   grid-template: repeat(3, 1fr) / 1fr 1fr;
   margin-bottom: 140px;
-  /* gap: 1px; */
 }
 
 .card-1 {
@@ -23,7 +30,6 @@
 }
 .card-4,
 .card-5 {
-  /* width: 584px; */
   background-color: #353535;
 }
 
@@ -31,20 +37,19 @@
   background-color: #3a3a3a;
 }
 
-.highlights p {
+.news-event {
   font-family: "Glacial Indifference";
   font-size: 15px;
   font-weight: 700;
   line-height: 36px;
   font-style: normal;
-  text-align: left;
   color: #ee3364;
   text-transform: uppercase;
   margin-bottom: 21px;
   margin-left: 535px;
 }
 
-.highlights h2 {
+.highlights-header {
   font-family: "Glacial Indifference";
 
   font-size: 65px;
@@ -66,17 +71,68 @@
   font-family: "Muli";
   font-size: 14px;
   font-weight: 700;
-  line-height: 90px;
+  /* line-height: 90px; */
   font-style: normal;
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
   margin-left: 490px;
+  padding-left: 1px;
 }
-.highlights {
-  margin-top: 153px;
-  padding-left: 370px;
-  padding-top: 128px;
-  padding-bottom: 140px;
-  background-color: #f2f2f2;
+
+.card {
+  width: 590px;
+  height: 730px;
+  text-align: center;
+  color: white;
+}
+.content-wrapper {
+  /* width: 45%; */
+  /* margin: 0 auto; */
+
+  display: none;
+}
+
+.card-header {
+  font-family: "Glacial Indifference";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  padding-top: 245px;
+  padding-left: 1px;
+  margin-left: -14px;
+}
+
+.card-title {
+  margin: 22px 0;
+  color: #ee3364;
+  font-family: "Glacial Indifference";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ee3364;
+  margin-left: -16px;
+}
+
+.card-txt {
+  font-family: "Muli";
+  font-size: 20px;
+  line-height: 28px;
+  padding-left: 20px;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-left: -40px;
+  word-spacing: 3px;
+  letter-spacing: -0.9px;
+}
+
+.card:hover .content-wrapper {
+  display: block;
+  cursor: pointer;
 }

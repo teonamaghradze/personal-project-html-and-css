@@ -29,13 +29,13 @@
   font-style: normal;
   text-align: left;
   color: #222222;
-  margin-bottom: 74px;
+  margin-bottom: 64px;
   margin-left: 697px;
 }
 
 /*************************/
 .plan-box {
-  padding-top: 50px;
+  padding-top: 69px;
   text-align: center;
   width: 370px;
   height: 530px;
@@ -62,7 +62,8 @@
   font-size: 13px;
   color: #0b0b0b;
   text-transform: uppercase;
-  margin-bottom: 35px;
+  margin-bottom: 38px;
+  margin-left: -10px;
 }
 
 .num {
@@ -70,6 +71,7 @@
   font-size: 80px;
   font-weight: 700;
   line-height: 30px;
+  margin-left: 13px;
 
   /* letter-spacing: 5px;*/
   color: #0b0b0b;
@@ -78,7 +80,7 @@
 .cost {
   text-align: left;
   padding-left: 80px;
-  margin-bottom: 75px;
+  margin-bottom: 60px;
 }
 
 .plan-profits span {
@@ -101,7 +103,7 @@
 }
 
 .plan-profits {
-  margin-bottom: 20px;
+  margin-bottom: 27px;
 }
 
 .plans button {
@@ -114,10 +116,13 @@
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 90px;
+  /* line-height: 90px; */
   font-style: normal;
-  text-align: left;
+  text-align: center;
+  padding-right: 10px;
+  padding-bottom: 5px;
   color: #ffffff;
+  letter-spacing: 1px;
 }
 
 .plans {
