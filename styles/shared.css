@@ -21,3 +21,8 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+header {
+  background: url("../images/background.png");
+  background-size: cover;
+}

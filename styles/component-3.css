@@ -1,5 +1,5 @@
 .header-component {
-  font-family: "Muli";
+  font-family: "Muli", sans-serif;
   padding: 0 162.5px 75px 374px;
   display: flex;
   color: #ffffff;
@@ -12,7 +12,7 @@
 }
 
 .header-component h1 {
-  font-family: "Glacial Indifference";
+  font-family: "Glacial Indifference", sans-serif;
   font-size: 80px;
   font-weight: 700;
   line-height: 87px;

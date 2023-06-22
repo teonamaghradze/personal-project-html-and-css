@@ -31,9 +31,28 @@
 
     <title>personal project</title>
     <style>
-      header {
-        background: url("./images/background.png");
-        background-size: cover;
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Muli";
+      }
+
+      .container {
+        width: 1920px;
+        /* max-width: 1920px; */
+      }
+
+      .flex {
+        display: flex;
+        align-items: center;
+      }
+
+      .flex-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
     </style>
   </head>
@@ -216,25 +235,25 @@
 
       <!-- component 7 -->
       <section class="numbers-component flex">
-        <div class="task flex">
+        <div class="task">
           <i class="fa-solid fa-3x fa-chart-pie"></i>
-          <div>
+          <div class="task-nums">
             <p>45k</p>
             <p>Task completed</p>
           </div>
         </div>
 
-        <div class="salling flex">
+        <div class="salling">
           <i class="fa-solid fa-3x fa-scale-balanced"></i>
-          <div>
+          <div class="salling-nums">
             <p>38k</p>
             <p>Salling Products</p>
           </div>
         </div>
 
-        <div class="consult flex">
+        <div class="consult">
           <i class="fa-solid fa-chess-king fa-3x"></i>
-          <div>
+          <div class="consult-nums">
             <p>5161</p>
             <p>King Consulting</p>
           </div>
@@ -242,7 +261,7 @@
       </section>
 
       <!-- COMPONENT 8 -->
-      <section class="component-8">
+      <section class="rectangle-component">
         <div class="relative-div">
           <div class="yellow-rec1"></div>
           <div class="yellow-rec2"></div>
@@ -297,9 +316,11 @@
               <h2 class="card-header">through a <br />glass darkly.</h2>
               <p class="card-title">BUSINESS DEVELOPMEN</p>
               <p class="card-txt">
-                Beast, together lights air you're <br />
-                which moved fill had dominion
+                Beast, together lights air you're <br /><span>
+                  which moved fill had dominion.</span
+                >
               </p>
+              <i class="fa-solid fa-arrow-right-long fa-2x"></i>
             </div>
           </div>
 
@@ -311,6 +332,7 @@
                 Beast, together lights air you're <br />
                 which moved fill had dominion
               </p>
+              <i class="fa-solid fa-arrow-right-long fa-2x"></i>
             </div>
           </div>
 
@@ -322,6 +344,7 @@
                 Beast, together lights air you're <br />
                 which moved fill had dominion
               </p>
+              <i class="fa-solid fa-arrow-right-long fa-2x"></i>
             </div>
           </div>
 
@@ -333,6 +356,7 @@
                 Beast, together lights air you're <br />
                 which moved fill had dominion
               </p>
+              <i class="fa-solid fa-arrow-right-long fa-2x"></i>
             </div>
           </div>
 
@@ -344,6 +368,7 @@
                 Beast, together lights air you're <br />
                 which moved fill had dominion
               </p>
+              <i class="fa-solid fa-arrow-right-long fa-2x"></i>
             </div>
           </div>
 
@@ -355,6 +380,7 @@
                 Beast, together lights air you're <br />
                 which moved fill had dominion
               </p>
+              <i class="fa-solid fa-arrow-right-long fa-2x"></i>
             </div>
           </div>
         </div>

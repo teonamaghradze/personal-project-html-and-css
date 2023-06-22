@@ -4,6 +4,7 @@
   padding-left: 370px;
   padding-bottom: 110px;
   gap: 100px;
+  font-family: "Glacial Indifference", sans-serif;
 }
 
 .numbers-component .fa-solid {
@@ -19,6 +20,15 @@
 .task .fa-solid {
   margin-right: 27px;
   padding: 31px;
+  float: left;
+}
+.task .task-nums {
+  float: right;
+  margin-top: 15px;
+}
+
+.task-nums p:first-child {
+  margin-bottom: 9px;
 }
 
 .salling {
@@ -27,27 +37,40 @@
 .salling .fa-solid {
   padding: 29px;
   margin-right: 32px;
+  float: left;
 }
-.consult {
-  margin-left: 22px;
+.salling-nums {
+  float: right;
+  margin-top: 15px;
+  margin-right: 24px;
+}
+.salling-nums p:first-child {
+  margin-bottom: 6px;
 }
 
 .consult .fa-solid {
-  margin-right: 68px;
+  float: left;
+  margin-top: 20px;
+}
+
+.consult-nums {
+  float: right;
+}
+.consult-nums p:first-child {
+  margin-bottom: 4px;
+}
+
+.consult .fa-solid {
+  margin-right: 66px;
 }
 
 .numbers-component p:first-of-type {
   color: #fff;
-
-  font-family: "Glacial Indifference";
   font-size: 57px;
   font-weight: 700;
 }
 
 .numbers-component p:last-of-type {
   color: #cfcfcf;
-  font-family: "Glacial Indifference";
   font-size: 24px;
-  /* letter-spacing: 5px; */
-  color: #cfcfcf;
 }

@@ -2,7 +2,7 @@
   color: #fff;
   border-color: #000000;
   border-width: 1px;
-  font-family: "Muli";
+  font-family: "Muli", sans-serif;
   filter: drop-shadow(-1.2246467996456087e-15px 20px 40px rgba(0, 0, 0, 0.15));
   background: rgba(21, 21, 21, 0.4);
   padding: 20px 360px 20px 379px;
@@ -34,7 +34,7 @@ a:hover {
 }
 
 .noxia-logo {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 55px;

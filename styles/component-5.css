@@ -5,11 +5,11 @@
   margin-top: 138px;
   padding-top: 110px;
   padding-bottom: 104px;
+  font-family: "Glacial Indifference", sans-serif;
 }
 
 .ceo-box h2,
 .backend-charts h2 {
-  font-family: "Glacial Indifference";
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -31,7 +31,7 @@
 }
 
 .ceo-box > p {
-  font-family: "Muli";
+  font-family: "Muli", sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 26px;
@@ -52,7 +52,6 @@
 }
 
 .ceo-names {
-  font-family: "Glacial Indifference";
   font-size: 14px;
   line-height: 25px;
   text-align: left;
@@ -65,7 +64,6 @@
 }
 
 .backend-charts p {
-  font-family: "Glacial Indifference";
   font-size: 16px;
   font-weight: normal;
   line-height: 44px;
@@ -125,7 +123,6 @@
 }
 
 .ceo-names p:last-of-type {
-  font-family: "Glacial Indifference";
   font-size: 14px;
   font-weight: normal;
   line-height: 25px;

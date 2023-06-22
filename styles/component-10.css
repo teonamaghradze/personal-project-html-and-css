@@ -48,6 +48,7 @@
   color: white;
   transform: scale(1.008);
   cursor: pointer;
+  border: 1px solid #ee3364;
 }
 
 .plan-box:hover .basic {

@@ -1,5 +1,7 @@
+.features-component {
+  font-family: "Glacial Indifference", sans-serif;
+}
 .features-header {
-  font-family: "Glacial Indifference";
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
@@ -86,7 +88,6 @@
 }
 
 .feature-box p:first-of-type {
-  font-family: "Glacial Indifference";
   font-size: 25px;
   font-weight: 700;
   line-height: 30px;
@@ -96,7 +97,7 @@
 }
 
 .feature-box p:last-of-type {
-  font-family: "Muli";
+  font-family: "Muli", sans-serif;
   font-size: 15px;
   font-weight: normal;
   line-height: 24px;
@@ -145,7 +146,7 @@
   border: none;
 
   background: #ee3364;
-  font-family: "Muli";
+  font-family: "Muli", sans-serif;
   font-size: 13.984660148620605px;
   font-weight: normal;
 

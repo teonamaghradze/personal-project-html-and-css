@@ -1,6 +1,6 @@
 .astronaut {
   display: flex;
-  margin-left: 50px;
+  padding-left: 50px;
   background-color: #f2f2f2;
   padding-bottom: 58px;
 }

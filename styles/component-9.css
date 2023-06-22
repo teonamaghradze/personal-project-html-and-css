@@ -1,44 +1,13 @@
 .highlights {
   margin-top: 153px;
-  padding-left: 370px;
+  padding-left: 371px;
   padding-top: 132px;
   padding-bottom: 140px;
   background-color: #f2f2f2;
-}
-
-.card {
-  width: 586.8px;
-  height: 730px;
-}
-
-.cards {
-  width: 1173px;
-  display: grid;
-  grid-template: repeat(3, 1fr) / 1fr 1fr;
-  margin-bottom: 140px;
-}
-
-.card-1 {
-  background-color: #2c2c2c;
-}
-.card-2 {
-  background-color: #d3d3d3;
-  width: 584px;
-}
-.card-3 {
-  background-color: #5c5c5c;
-}
-.card-4,
-.card-5 {
-  background-color: #353535;
-}
-
-.card-6 {
-  background-color: #3a3a3a;
+  font-family: "Glacial Indifference", sans-serif;
 }
 
 .news-event {
-  font-family: "Glacial Indifference";
   font-size: 15px;
   font-weight: 700;
   line-height: 36px;
@@ -46,12 +15,10 @@
   color: #ee3364;
   text-transform: uppercase;
   margin-bottom: 21px;
-  margin-left: 535px;
+  margin-left: 534px;
 }
 
 .highlights-header {
-  font-family: "Glacial Indifference";
-
   font-size: 65px;
   font-weight: 700;
   line-height: 36px;
@@ -62,16 +29,50 @@
   margin-left: 262px;
 }
 
+.cards {
+  width: 1171px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / 1fr 1fr;
+  margin-bottom: 140px;
+}
+
+.card {
+  width: 586.8px;
+  height: 730px;
+  color: #fff;
+}
+.card2,
+.card4,
+.card6 {
+  width: 584.2px;
+}
+
+.card-1 {
+  background-color: #545556;
+}
+.card-2 {
+  background-color: #d3d3d3;
+}
+.card-3 {
+  background-color: #5c5c5c;
+}
+.card-4,
+.card-5 {
+  background-color: #353535;
+}
+.card-6 {
+  background-color: #3a3a3a;
+}
+
 .highlights button {
   width: 180px;
   height: 58px;
 
   background: #ee3364;
   border: none;
-  font-family: "Muli";
+  font-family: "Muli", sans-serif;
   font-size: 14px;
   font-weight: 700;
-  /* line-height: 90px; */
   font-style: normal;
   text-align: center;
   color: #ffffff;
@@ -80,36 +81,24 @@
   padding-left: 1px;
 }
 
-.card {
-  width: 590px;
-  height: 730px;
-  text-align: center;
-  color: white;
-}
+/*  */
 .content-wrapper {
-  /* width: 45%; */
-  /* margin: 0 auto; */
-
   display: none;
 }
 
 .card-header {
-  font-family: "Glacial Indifference";
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
   text-align: center;
   letter-spacing: 0.3px;
-  color: #ffffff;
   padding-top: 245px;
-  padding-left: 1px;
-  margin-left: -14px;
+  margin-left: -16px;
 }
 
 .card-title {
   margin: 22px 0;
   color: #ee3364;
-  font-family: "Glacial Indifference";
   font-size: 14px;
   font-weight: normal;
   line-height: 13px;
@@ -120,19 +109,25 @@
 }
 
 .card-txt {
-  font-family: "Muli";
+  font-family: "Muli", sans-serif;
   font-size: 20px;
-  line-height: 28px;
-  padding-left: 20px;
-  font-style: normal;
-  text-align: center;
-  color: #ffffff;
-  margin-left: -40px;
-  word-spacing: 3px;
-  letter-spacing: -0.9px;
+  line-height: 27.2px;
+  padding-left: 133px;
+  letter-spacing: -0.45px;
+  margin-bottom: 25px;
+}
+.card-txt span {
+  margin-left: 5px;
+}
+
+.card i {
+  padding-left: 260px;
 }
 
 .card:hover .content-wrapper {
   display: block;
+}
+
+.card:hover {
   cursor: pointer;
 }

@@ -1,6 +1,7 @@
-.component-8 {
+.rectangle-component {
   margin-left: 361px;
   display: flex;
+  font-family: "Glacial Indifference", sans-serif;
 }
 
 .yellow-rec1,
@@ -29,20 +30,18 @@
 }
 
 .solutions h3 {
-  font-family: "Glacial Indifference";
   font-size: 45px;
   font-weight: 700;
   line-height: 45px;
 
   letter-spacing: -0.8px;
   color: #1c1c1c;
-  /* width: 545px; */
   margin-top: 188px;
   margin-bottom: 32px;
 }
 
 .solutions p {
-  font-family: "Muli";
+  font-family: "Muli", sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 24px;
@@ -55,7 +54,6 @@
 }
 
 .check-list span {
-  font-family: "Glacial Indifference";
   font-size: 17px;
   font-weight: 700;
   line-height: 42px;
@@ -77,7 +75,7 @@
 
   background: #ee3364;
   border: none;
-  font-family: "Muli";
+  font-family: "Muli", sans-serif;
   font-size: 14px;
   font-weight: 700;
   margin-left: 4px;
