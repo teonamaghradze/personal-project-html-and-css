@@ -29,11 +29,11 @@
   text-align: center;
   margin-left: 8px;
   color: #ffffff;
-  margin-bottom: 26px;
+  margin-bottom: 27px;
 }
 .fb-twitter {
   gap: 15px;
-  margin-left: 163px;
+  margin-left: 149px;
 }
 
 .gray-box3:hover {
@@ -44,7 +44,7 @@
 
 .content {
   display: none;
-  padding-top: 285px;
+  padding-top: 269px;
 }
 
 .gray-box3:hover .content {

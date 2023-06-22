@@ -1,14 +1,13 @@
 .testimonial {
   flex-direction: column;
-  /* justify-content: space-between; */
+  font-family: "Muli", sans-serif;
 }
 
 .quote-marks {
-  margin-top: 190px;
-  /* justify-content: space-between; */
+  margin-top: 140px;
   gap: 50px;
   margin-left: 776px;
-  margin-bottom: 19px;
+  margin-bottom: 16px;
 }
 
 .quote-marks img:first-child {
@@ -19,7 +18,7 @@
   margin-right: 17px;
 }
 .author {
-  font-family: "Glacial Indifference";
+  font-family: "Glacial Indifference", sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 27px;
@@ -30,7 +29,6 @@
 }
 
 .company {
-  font-family: "Muli";
   font-size: 14px;
   font-weight: normal;
   line-height: 24px;
@@ -38,30 +36,43 @@
   text-align: center;
   color: #c4c4c4;
   margin-left: 34px;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
 .comment {
-  font-family: "Muli";
   font-size: 17px;
-  /* font-weight: 700; */
   line-height: 27px;
-  font-style: italic;
   text-align: center;
   color: #8d8d8d;
   width: 800px;
-  margin-left: 586px;
-  margin-bottom: 32px;
+  margin-left: 579px;
+  margin-bottom: 25px;
+  word-spacing: -0.6px;
 }
 
 .dots {
-  margin-left: 945px;
-  gap: 10px;
-  margin-bottom: 135px;
+  margin-left: 946px;
+  gap: 9px;
+  margin-bottom: 130px;
 }
 
 .sponsors {
   gap: 20px;
   gap: 133px;
   margin-left: 419px;
+  padding-bottom: 9px;
+}
+
+.sponsors img:first-child {
+  margin-right: 6px;
+}
+
+.sponsors img:nth-child(3) {
+  margin-top: 8px;
+  margin-right: -20px;
+}
+
+.sponsors img:nth-child(4) {
+  margin-top: 8px;
+  margin-right: -20px;
 }

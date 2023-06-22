@@ -47,6 +47,10 @@
   margin-left: 1px;
 }
 
+.underline {
+  border-bottom: 1px dashed;
+}
+
 .ceo-box {
   padding-left: 382px;
 }

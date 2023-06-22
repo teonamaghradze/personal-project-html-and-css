@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -10,9 +11,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- fonts -->
     <link href=“https://fonts.cdnfonts.com/css/glacial-indifference-2”
     rel=“stylesheet”>
+    <link href="https://fonts.cdnfonts.com/css/muli" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -174,10 +175,11 @@
           </h2>
           <p>
             Vivamus &#160;gravida consequat sollicitudin. Curabitur tempus vitae
-            eros sed sodales. Morbi est tortor, varius id bibendum et, mattis
-            sed augue.&#160;Duis porttitor ante odio, id porttitor massa tempor
-            vehicula. Quisque congue augue rutrum neque iaculis porta. Etiam
-            blandit mi, quis commodo nisi varius eget.
+            eros sed sodales. Morbi est tortor, varius
+            <span class="underline">id bibendum et</span>
+            , mattis sed augue.&#160;Duis porttitor ante odio, id porttitor
+            massa tempor vehicula. Quisque congue augue rutrum neque iaculis
+            porta. Etiam blandit mi, quis commodo nisi varius eget.
             <span> Etiam sem nibh,&#160;aliquet sit amet nunc nec,</span>
           </p>
           <div class="flex pic-names">
@@ -480,11 +482,11 @@
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis
             tortor ex. Morbi cursus sed <br />neque quis dictum. Duis bibendum
-            ullamcorper pharetra.lis.spendisse &#160;maximus
+            ullamcorper pharetra.lis.spendisse maximus
           </p>
 
           <form>
-            <div>
+            <div class="select-container">
               <select>
                 <option
                   placeholder="Business services consulting"
@@ -492,16 +494,17 @@
                 >
                   Business services consulting
                 </option>
-                <option value="saab">Saab</option>
+                <option value="dasd">Sdas</option>
                 <option value="mercedes">Mercedes</option>
                 <option value="audi">Audi</option>
               </select>
+              <i class="down-arr fa-solid fa-caret-down"></i>
 
               <input class="name" type="text" placeholder="Name" />
             </div>
 
             <div>
-              <input type="number" class="phone" placeholder="Phone Number" />
+              <input type="tel" class="phone" placeholder="Phone number" />
               <input class="btn" type="submit" value="submit now" />
             </div>
           </form>
@@ -555,12 +558,20 @@
           veniam quis nostrud.
         </p>
         <div class="flex footer-socials">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <img src="./images/google plus.png" alt="" />
-          <i class="fa-brands fa-behance"></i>
-          <i class="fa-brands fa-pinterest"></i>
-          <img src="./images/instagram (1).png" alt="" />
+          <i class="fa-brands footer-facebook-icon fa-facebook-f fa-lg"></i>
+          <i class="fa-brands fa-twitter fa-lg footer-twitter-icon"></i>
+          <img
+            class="footer-google-icon"
+            src="./images/google plus.png"
+            alt=""
+          />
+          <i class="footer-behance-icon fa-brands fa-behance fa-lg"></i>
+          <i class="footer-pinterest-icon fa-brands fa-pinterest fa-lg"></i>
+          <img
+            class="footer-instagram-icon"
+            src="./images/instagram (1).png"
+            alt=""
+          />
         </div>
         <small class="rights">
           © All right reserved 2019. <span>Noxia</span> - Creative Agency
