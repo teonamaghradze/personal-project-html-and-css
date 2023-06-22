@@ -1,9 +1,6 @@
 .services {
-  /* padding-left: 380px; */
   padding-top: 126px;
-  /* margin-top: 200px; */
   padding-bottom: 140px;
-  /* background-color: red; */
 }
 
 .news {
@@ -22,7 +19,6 @@
 
 .services h2 {
   font-family: "Glacial Indifference";
-
   font-size: 65px;
   font-weight: 700;
   line-height: 36px;
@@ -47,6 +43,39 @@
   background: #ffffff;
 }
 
+.plan-box:hover {
+  background-color: #ee3364;
+  color: white;
+  transform: scale(1.008);
+  cursor: pointer;
+}
+
+.plan-box:hover .basic {
+  color: white;
+}
+
+.plan-box:hover .num {
+  color: white;
+}
+.plan-box:hover .basic + p {
+  color: white;
+}
+
+.plan-box:hover .plan-profits {
+  color: white;
+}
+
+.plan-box:hover .plan-profits span {
+  color: white;
+}
+.plan-box:hover .plan-profits p {
+  color: white;
+}
+
+.plan-box:hover .purchase-btn {
+  background-color: #ee3364;
+  border: 1px solid white;
+}
 .basic {
   font-family: "Glacial Indifference";
   font-size: 30px;
@@ -55,6 +84,7 @@
   /* letter-spacing: 5px; */
   color: #0b0b0b;
   margin-bottom: 15px;
+  /* color: red; */
 }
 
 .plan-box > p:nth-child(2) {
@@ -109,14 +139,12 @@
 .plans button {
   width: 180px;
   height: 58px;
-
   background: #1e1e1e;
   border: none;
   font-family: "Muli";
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  /* line-height: 90px; */
   font-style: normal;
   text-align: center;
   padding-right: 10px;
@@ -128,9 +156,4 @@
 .plans {
   margin-left: 373px;
   gap: 30px;
-}
-
-.plan-box:hover {
-  background-color: #ee3364;
-  color: white;
 }
