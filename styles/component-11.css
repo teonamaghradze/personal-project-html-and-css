@@ -9,8 +9,44 @@
   background-color: #d0d0d0;
 }
 
+.content h3 {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Glacial Indifference", sans-serif;
+  font-style: normal;
+  text-align: center;
+  margin-left: 6px;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.content p {
+  font-family: "Muli";
+  font-size: 18.04322052001953px;
+  font-weight: normal;
+  line-height: 33.83103942871094px;
+  font-style: normal;
+  text-align: center;
+  margin-left: 8px;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+.fb-twitter {
+  gap: 15px;
+  margin-left: 163px;
+}
+
 .gray-box3:hover {
   background-color: #ee3364;
-  border: 10px solid #242424;
+  border: 15px solid #242424;
   cursor: pointer;
+}
+
+.content {
+  display: none;
+  padding-top: 285px;
+}
+
+.gray-box3:hover .content {
+  display: block;
 }
