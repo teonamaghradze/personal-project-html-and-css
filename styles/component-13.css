@@ -4,10 +4,8 @@
 }
 
 .quote-marks {
-  margin-top: 140px;
+  margin: 140px 0 16px 776px;
   gap: 50px;
-  margin-left: 776px;
-  margin-bottom: 16px;
 }
 
 .quote-marks img:first-child {
