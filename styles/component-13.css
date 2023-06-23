@@ -4,8 +4,10 @@
 }
 
 .quote-marks {
-  margin: 140px 0 16px 776px;
+  margin-top: 140px;
   gap: 50px;
+  margin-left: 776px;
+  margin-bottom: 16px;
 }
 
 .quote-marks img:first-child {
@@ -19,43 +21,42 @@
   font-family: "Glacial Indifference", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 27px;
-  font-style: normal;
+  line-height: 28px;
   text-align: center;
   color: #303030;
-  margin-left: 34px;
+  margin-left: 33px;
+  letter-spacing: 0.5px;
 }
 
 .company {
   font-size: 14px;
-  font-weight: normal;
   line-height: 24px;
-  font-style: normal;
   text-align: center;
   color: #c4c4c4;
-  margin-left: 34px;
-  margin-bottom: 14px;
+  margin-left: 36px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
 }
 
 .comment {
   font-size: 17px;
   line-height: 27px;
   text-align: center;
+  font-weight: 700;
   color: #8d8d8d;
   width: 800px;
-  margin-left: 579px;
+  margin-left: 580px;
   margin-bottom: 25px;
-  word-spacing: -0.6px;
+  word-spacing: -1.2x;
 }
 
 .dots {
   margin-left: 946px;
   gap: 9px;
-  margin-bottom: 130px;
+  margin-bottom: 128px;
 }
 
 .sponsors {
-  gap: 20px;
   gap: 133px;
   margin-left: 419px;
   padding-bottom: 9px;
@@ -65,12 +66,10 @@
   margin-right: 6px;
 }
 
-.sponsors img:nth-child(3) {
-  margin-top: 8px;
-  margin-right: -20px;
-}
-
+.sponsors img:nth-child(3), 
 .sponsors img:nth-child(4) {
   margin-top: 8px;
   margin-right: -20px;
 }
+
+

@@ -7,8 +7,8 @@
   line-height: 50px;
   text-align: center;
   color: #2e2e2e;
-  margin-top: 129px;
-  margin-left: 22px;
+  margin: 129px 0 49px 26px;
+  letter-spacing: 0.4px
 }
 
 .features-header span {
@@ -17,70 +17,69 @@
 
 .features {
   justify-content: center;
-  gap: 50px;
-  margin-bottom: 86px;
+  gap: 38px;
+  margin-bottom: 85px;
 }
 
 .feature-box {
   width: 362px;
   height: 292px;
   background: #edf7ff;
-  margin-top: 49px;
 }
 
 .feature-box1 {
   padding-left: 24px;
-  margin-left: 12px;
+  margin-right: 10px;
 }
 .diamond {
-  margin-bottom: 14px;
-  margin-left: 14px;
-  margin-top: 41px;
+  margin: 38px 0 15px 11px;
 }
+
 .diamond-header {
-  margin-bottom: 25px;
-  padding-left: 20px;
-}
-.diamond-header + p {
   padding-left: 19px;
-  letter-spacing: -0.4px;
-  word-spacing: 0.1px;
+  letter-spacing: 0.2px;
+  margin-bottom: 26px;
+}
+
+.diamond-header + p {
+  padding-left: 18px;
 }
 
 .feature-box2 {
   padding-left: 40px;
 }
+
 .pig {
-  margin-bottom: 10px;
-  margin-left: -5px;
-  margin-top: 45px;
+  margin: 45px 0 9px -5px;
 }
+
 .pig-header {
   margin-bottom: 25px;
+  letter-spacing: 0.3px;
 }
 
 .pig-header + p {
-  word-spacing: -1.8px;
+  word-spacing: 0.1px;  
 }
 
 .feature-box3 {
-  padding-left: 22px;
+  padding-left: 34px;
 }
 
 .responsive-header + p {
-  margin-left: -3px;
-  letter-spacing: -0.3px;
-  word-spacing: -0.6px;
+  margin-left: -4px;
+  word-spacing: 0.3px;
 }
 
 .responsive {
   margin-bottom: 11px;
-  margin-top: 45px;
+  margin-top: 42px;
 }
 
 .responsive-header {
   padding-left: 5px;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
+  letter-spacing: 0.1px;
 }
 
 .responsive-header + p {
@@ -91,31 +90,22 @@
   font-size: 25px;
   font-weight: 700;
   line-height: 30px;
-  font-style: normal;
-  text-align: left;
   color: #2e2e2e;
 }
 
 .feature-box p:last-of-type {
   font-family: "Muli", sans-serif;
   font-size: 15px;
-  font-weight: normal;
   line-height: 24px;
-  font-style: normal;
-  text-align: left;
   color: #838383;
 }
 
 .feature-box:hover {
-  border-color: #ee3364;
-  border-width: 3px;
-  border-style: solid;
+  border: 3px solid #ee3364;
   cursor: pointer;
-
   filter: drop-shadow(
     8px 13.856406211853027px 21.5px rgba(121, 121, 121, 0.48)
   );
-
   background-color: #ffffff;
 }
 

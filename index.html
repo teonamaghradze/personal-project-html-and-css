@@ -3,18 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    
     <!-- fonts -->
     <link
+      href="https://fonts.cdnfonts.com/css/glacial-indifference-2"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
-    <link href=“https://fonts.cdnfonts.com/css/glacial-indifference-2”
-    rel=“stylesheet”>
+
     <link href="https://fonts.cdnfonts.com/css/muli" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+   
+    
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    
+<!-- 
+  <link href=“https://fonts.cdnfonts.com/css/glacial-indifference-2”
+    rel=“stylesheet”> 
+     <link href="https://fonts.cdnfonts.com/css/muli" rel="stylesheet" /> 
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -26,36 +53,9 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
-    />
+    /> -->
 
-    <link rel="stylesheet" href="./styles/styles.css" />
-
-    <title>personal project</title>
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: "Muli";
-      }
-
-      .container {
-        width: 1920px;
-        /* max-width: 1920px; */
-      }
-
-      .flex {
-        display: flex;
-        align-items: center;
-      }
-
-      .flex-column {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-    </style>
+    <title>personal project</title>    
   </head>
   <body>
     <div class="container">
@@ -91,9 +91,9 @@
             <ul class="flex">
               <li><a href="#">Home</a></li>
               <li><a href="#">Pages</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li class="shortcodes"><a href="#">Shortcodes</a></li>
-              <li class="blog"><a href="#">Blog</a></li>
+              <li><a class="portfolio" href="#">Portfolio</a></li>
+              <li><a class="shortcodes" href="#">Shortcodes</a></li>
+              <li><a href="#">Blog</a></li>
               <li><a href="#">Shop</a></li>
             </ul>
             <div class="cart-search flex">
@@ -107,10 +107,10 @@
         <!-- THIRD COMPONENT -->
         <section class="header-component">
           <div>
-            <h1>We Make Agency with Excellence Services.</h1>
+            <h1>We <span>Make</span> Agency <span>with </span>Excellence Services.</h1>
             <h3>
-              The &#160;Two &#160;golden rules professional graphic
-              designer&#160; don’t want &#160;you to &#160;know about.
+              The Two golden rules professional graphic
+              designer don’t want you to know about.
             </h3>
             <button>send message</button>
           </div>
@@ -134,7 +134,7 @@
             </div>
             <p class="diamond-header">One-click Installation</p>
             <p>
-              Etiam nec odio vestibulum est mattis effic iturut magna.
+              Etiam nec odio vestibulum est mattis effic <br> iturut magna.
               Pellentesque sit,
             </p>
           </div>
@@ -174,13 +174,13 @@
             digital world starts
           </h2>
           <p>
-            Vivamus &#160;gravida consequat sollicitudin. Curabitur tempus vitae
+            Vivamus gravida consequat sollicitudin. Curabitur tempus vitae
             eros sed sodales. Morbi est tortor, varius
             <span class="underline">id bibendum et</span>
-            , mattis sed augue.&#160;Duis porttitor ante odio, id porttitor
+            ,mattis sed augue. Duis porttitor ante odio, id porttitor
             massa tempor vehicula. Quisque congue augue rutrum neque iaculis
             porta. Etiam blandit mi, quis commodo nisi varius eget.
-            <span> Etiam sem nibh,&#160;aliquet sit amet nunc nec,</span>
+            Etiam sem nibh, aliquet sit amet nunc nec,
           </p>
           <div class="flex pic-names">
             <img src="./images/rectangle.png" alt="rectangle" />
@@ -225,10 +225,9 @@
 
       <!-- COMPONENT-6 -->
       <section class="video-component flex-column">
-        <p>Aliquam erat volutpat interdum</p>
+        <p>Aliquam erat &#160;volutpat interdum</p>
         <h2>
-          Get ready to start your exciting journey.
-          <span>Our agency will lead you through the</span>
+          Get ready to start&#160;your&#160;exciting journey. Our agency will lead you through the&#160;&#160;
         </h2>
         <i class="fa-solid fa-play fa-2x"></i>
 
@@ -284,7 +283,7 @@
 
           <div class="check-list">
             <i class="fa-solid fa-circle-check"></i>
-            <span>Senectus et netus et malesuada.</span>
+            <span>Senectus et&#160; netus et malesuada.</span>
           </div>
           <div class="check-list">
             <i class="fa-solid fa-circle-check"></i>
@@ -310,12 +309,12 @@
       <!-- COMPONENT 9 -->
       <section class="highlights">
         <p class="news-event">news & event</p>
-        <h2 class="highlights-header">Our Highlight Showcases</h2>
+        <h2 class="highlights-header">Our <span>Highlight</span>  Showcases</h2>
 
         <div class="cards">
           <div class="card-1 card">
             <div class="content-wrapper">
-              <h2 class="card-header">through a <br />glass darkly.</h2>
+              <h2 class="card-header">through a <br /> <span> glass darkly.</span></h2>
               <p class="card-title">BUSINESS DEVELOPMEN</p>
               <p class="card-txt">
                 Beast, together lights air you're <br /><span>

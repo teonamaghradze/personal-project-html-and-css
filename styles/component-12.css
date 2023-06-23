@@ -6,113 +6,6 @@
   font-family: "Muli", sans-serif;
 }
 
-.astronaut h2 span {
-  color: #ee3364;
-}
-
-.astronaut p {
-  font-size: 17px;
-  color: #2e2e2e;
-  margin-bottom: 43px;
-  line-height: 28px;
-  letter-spacing: -0.4px;
-  padding-left: 5px;
-  margin-left: -2px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-}
-
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  text-indent: 1px;
-  text-overflow: "";
-}
-.select-container {
-  position: relative;
-}
-select {
-  padding-left: 30px;
-  padding-top: 1px;
-  letter-spacing: 0.12px;
-}
-.name {
-  padding-left: 28px;
-  padding-bottom: 4px;
-}
-
-select:focus,
-.name:focus,
-.phone:focus {
-  border: none;
-  outline: 3px solid #ee3364;
-}
-
-.phone {
-  padding-left: 30px;
-  word-spacing: 1px;
-  letter-spacing: 0.08px;
-}
-.down-arr {
-  position: absolute;
-  left: 39%;
-  top: 35%;
-  color: #777777;
-}
-
-select,
-input {
-  width: 351px;
-  height: 53.5px;
-  border: none;
-  font-size: 13px;
-  font-weight: normal;
-  line-height: 22px;
-  font-style: normal;
-  text-align: left;
-  color: #222222;
-}
-
-select,
-.phone {
-  background-color: #cacaca;
-  margin-right: 19px;
-}
-
-.name {
-  border: 1px solid #cacaca;
-}
-
-.btn {
-  background: #ee3364;
-  font-family: "Glacial Indifference", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  padding-right: 12px;
-  padding-bottom: px;
-  letter-spacing: 1px;
-}
-.astronaut h2 {
-  font-family: "Glacial Indifference", sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 51px;
-  font-style: normal;
-  text-align: left;
-  letter-spacing: -3px;
-  color: #2b2b2b;
-  margin-top: 196px;
-  margin-bottom: 16px;
-  margin-left: -2px;
-}
-
 .rocks1 {
   width: 101px;
   height: 265px;
@@ -130,5 +23,106 @@ select,
   transform: rotate(-10deg);
   width: 500px;
   height: 470px;
-  margin-right: 90px;
+  margin-right: 88px;
 }
+
+.astronaut h2 {
+  font-family: "Glacial Indifference", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: -2.2px;
+  color: #2b2b2b;
+  margin-top: 197px;
+  margin-bottom: 19px;
+}
+.astronaut h2 span {
+  color: #ee3364;
+  margin-right: -6px;
+}
+
+.astronaut p {
+  font-size: 17px;
+  color: #2e2e2e;
+  margin-bottom: 41px;
+  line-height: 28px;
+  padding-left: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-left: 2px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  padding-left: 30px;
+  padding-top: 1px;
+  letter-spacing: 0.12px;
+}
+.select-container {
+  position: relative;
+}
+
+.name {
+  padding-left: 28px;
+  border: 1px solid #cacaca;
+}
+
+select:focus,
+.name:focus,
+.phone:focus {
+  border: none;
+  outline: 3px solid #ee3364;
+}
+
+.phone {
+  padding-left: 30px;
+  word-spacing: 1px;
+  letter-spacing: 0.08px;
+}
+.down-arr {
+  position: absolute;
+  left: 39%;
+  top: 32%;
+  color: #777777;
+}
+
+select,
+input {
+  width: 351px;
+  height: 53.5px;
+  border: none;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  color: #222222;
+}
+
+select,
+.phone {
+  background-color: #cacaca;
+  margin-right: 20px;
+}
+
+.btn {
+  background: #ee3364;
+  font-family: "Glacial Indifference", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-right: 12px;
+  padding-bottom: px;
+  letter-spacing: 1px;
+}
+
+
+

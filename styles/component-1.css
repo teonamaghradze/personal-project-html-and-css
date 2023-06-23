@@ -11,7 +11,7 @@
 .top-nav .mail-icon {
   margin-right: 23px;
   margin-top: 1.5px;
-}
+ }
 
 .top-nav .phone-icon {
   margin-top: 1.5px;
@@ -22,13 +22,12 @@
   margin-right: 80px;
   font-size: 40px;
   opacity: 0.44;
-  letter-spacing: -0.4px;
+   
 }
 
 .top-nav p:last-of-type {
   font-size: 16px;
   opacity: 0.44;
-  letter-spacing: -0.28px;
 }
 .socials {
   gap: 20px;

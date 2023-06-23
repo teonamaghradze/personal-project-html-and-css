@@ -1,8 +1,6 @@
 .numbers-component {
   background-color: #1b1b1b;
-  padding-top: 87px;
-  padding-left: 370px;
-  padding-bottom: 110px;
+  padding: 88px 0 113px 370px;
   gap: 100px;
   font-family: "Glacial Indifference", sans-serif;
 }
@@ -30,9 +28,12 @@
 .task-nums p:first-child {
   margin-bottom: 9px;
 }
+.task-nums p {
+  letter-spacing: 0.2px;
+}
 
-.salling {
-  margin-left: -2px;
+.salling p {
+  letter-spacing: 0.2px
 }
 .salling .fa-solid {
   padding: 29px;
@@ -41,7 +42,7 @@
 }
 .salling-nums {
   float: right;
-  margin-top: 15px;
+  margin-top: 14px;
   margin-right: 24px;
 }
 .salling-nums p:first-child {
@@ -58,10 +59,11 @@
 }
 .consult-nums p:first-child {
   margin-bottom: 4px;
+  letter-spacing: -8px;
 }
 
 .consult .fa-solid {
-  margin-right: 66px;
+  margin-right: 62px;
 }
 
 .numbers-component p:first-of-type {

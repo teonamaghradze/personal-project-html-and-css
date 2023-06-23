@@ -8,12 +8,11 @@
 .video-component p:first-child {
   font-family: "Muli";
   font-size: 16px;
-  font-weight: normal;
   line-height: 23px;
-  font-style: normal;
-  text-align: left;
-  margin-bottom: 13px;
-  margin-left: 17px;
+  margin-bottom: 11px;
+  margin-left: 16px;
+  word-spacing: -0.7px;
+  letter-spacing: 0.3px;
 }
 
 .video-component h2 {
@@ -21,23 +20,21 @@
   font-weight: 700;
   line-height: 47px;
   text-align: center;
-  padding-left: 549px;
-  padding-right: 553px;
-  word-spacing: 2px;
-  letter-spacing: -1.2px;
-  margin-bottom: 87px;
+  padding-left: 548px;
+  padding-right: 542px;
+  letter-spacing: -0.5px;
+  margin-bottom: 88px;
 }
-.video-component h2 span {
-  margin-left: -8px;
-}
+
 .fa-play {
-  margin-bottom: 55px;
+  margin-bottom: 54px;
   margin-left: -5px;
 }
 
 .video-component p:last-child {
   font-size: 15px;
   font-weight: 700;
+  word-spacing: -1.2px;
   letter-spacing: -0.5px;
-  margin-left: -9px;
+  margin-left: -8px;
 }

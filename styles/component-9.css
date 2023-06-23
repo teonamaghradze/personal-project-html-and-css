@@ -1,7 +1,7 @@
 .highlights {
-  margin-top: 153px;
+  margin-top: 157px;
   padding-left: 371px;
-  padding-top: 132px;
+  padding-top: 129px;
   padding-bottom: 140px;
   background-color: #f2f2f2;
   font-family: "Glacial Indifference", sans-serif;
@@ -14,7 +14,7 @@
   font-style: normal;
   color: #ee3364;
   text-transform: uppercase;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
   margin-left: 534px;
 }
 
@@ -27,6 +27,12 @@
   color: #222222;
   margin-bottom: 74px;
   margin-left: 262px;
+  letter-spacing: 0.4px;
+  word-spacing: 3px;
+}
+.highlights-header span {
+  letter-spacing: 0.2px;
+  margin-left: -3px;
 }
 
 .cards {
@@ -73,7 +79,6 @@
   font-family: "Muli", sans-serif;
   font-size: 14px;
   font-weight: 700;
-  font-style: normal;
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
@@ -97,6 +102,10 @@
   margin-left: -16px;
 }
 
+.card-header span {
+  margin-left: 6px;
+}
+
 .card-title {
   margin: 22px 0;
   color: #ee3364;
@@ -104,7 +113,7 @@
   font-weight: normal;
   line-height: 13px;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   color: #ee3364;
   margin-left: -16px;
 }
@@ -112,9 +121,8 @@
 .card-txt {
   font-family: "Muli", sans-serif;
   font-size: 20px;
-  line-height: 27.2px;
-  padding-left: 133px;
-  letter-spacing: -0.45px;
+  line-height: 28px;
+  padding-left: 132px;
   margin-bottom: 25px;
 }
 .card-txt span {

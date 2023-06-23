@@ -9,18 +9,10 @@
   gap: 45px;
 }
 ul {
-  gap: 42px;
+  gap: 44px;
   list-style: none;
-  margin-right: 88px;
-  margin-top: -5px;
-}
-
-.shortcodes {
-  margin-right: -2px;
-}
-
-.blog {
-  margin-right: 3px;
+  margin-right: 89px;
+  margin-top: -4px;
 }
 
 a {
@@ -28,6 +20,16 @@ a {
   color: #ffffff;
   font-size: 18px;
 }
+.portfolio {
+  margin-left: -2px;
+  letter-spacing: 0.5px;
+}
+.shortcodes {
+  margin-left: -2px;
+  letter-spacing: 0.4px;
+  margin-right: -5px;
+}
+
 
 a:hover {
   color: #ee3364;

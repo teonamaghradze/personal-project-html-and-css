@@ -22,7 +22,7 @@
   filter: drop-shadow(8.5px 14.722432136535645px 25px rgba(0, 0, 0, 0.29));
   position: absolute;
   left: 13%;
-  top: 26%;
+  top: 26.5%;
 }
 
 .relative-div {
@@ -33,24 +33,21 @@
   font-size: 45px;
   font-weight: 700;
   line-height: 45px;
-
-  letter-spacing: -0.8px;
+  letter-spacing: -0.26px;
   color: #1c1c1c;
-  margin-top: 188px;
-  margin-bottom: 32px;
+  margin-top: 184px;
+  margin-bottom: 33px;
 }
 
 .solutions p {
   font-family: "Muli", sans-serif;
   font-size: 16px;
   font-weight: normal;
-  line-height: 24px;
+  line-height: 25px;
   color: #8b8b8b;
   width: 610px;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   padding-left: 3px;
-  letter-spacing: -0.3px;
-  word-spacing: -0.4px;
 }
 
 .check-list span {
@@ -58,6 +55,8 @@
   font-weight: 700;
   line-height: 42px;
   color: #383838;
+  letter-spacing: 0.35px;
+  word-spacing: -1px;
 }
 
 .check-list i {
@@ -81,7 +80,8 @@
   margin-left: 4px;
   color: #ffffff;
   text-transform: uppercase;
-  padding-left: 5px;
+  padding-left: 6px;
+
   padding-bottom: 2px;
   letter-spacing: 0.08px;
 }

@@ -1,14 +1,15 @@
 .header-component {
   font-family: "Muli", sans-serif;
-  padding: 0 162.5px 75px 374px;
+  padding: 0 158px 74px 0;
   display: flex;
-  color: #ffffff;
+  color: #fff;  
 }
 
 .header-component img {
-  margin-top: 82px;
+  margin-top: 84px;
   width: 736px;
   height: 727px;
+  padding-right: 18px;  
 }
 
 .header-component h1 {
@@ -16,34 +17,39 @@
   font-size: 80px;
   font-weight: 700;
   line-height: 87px;
-  margin: 235px 0 22px 0;
+  margin-top: 233px;
+  margin-bottom: 26px;
+  letter-spacing: 1.5px;
+  padding-left: 377px;
+}
+
+.header-component h1 span:first-child {
+  margin-left: 1.8px;
+}
+
+.header-component h1 span:last-child {
+  letter-spacing: 0.4px;
+  margin-right: -2.9px;
 }
 
 .header-component h3 {
   font-size: 20px;
-  font-weight: normal;
-  line-height: 25px;
   width: 560px;
   line-height: 27.5px;
-  word-spacing: -2.8px;
-  letter-spacing: -0.16px;
-  margin-left: 3px;
-  margin-bottom: 59px;
-}
+  margin: 0 0 59px 377px;
+ }
 
 .header-component button {
+  width: 180px;
+  height: 58px;
   background: #ee3364;
   border: none;
   font-size: 12px;
-  font-weight: normal;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   word-spacing: 2px;
-  margin-left: -4px;
-  padding-bottom: 10px;
-  padding-left: 19px;
-
-  width: 180px;
-  height: 58px;
+  padding-bottom: 12px;
+  margin-left: 370px;  
+  padding-left: 20px;
 }
